@@ -1,0 +1,6 @@
+1- Create public Dictionary<string, Color> SelectedObjectColors in GameManager
+2- Drag ColorPickerPanel prefab to Canvas
+3-Create a string list where you open ColorPickerPanel (example: if you open ColorPickerPanel with a button in MainMenu create a string list in MainMenu)
+4-Decide the objects you want to change their colors and add their names to string list
+5-When you open ColorPickerPanel, send the string list to Init() function
+6-Select the colors and use them with SelectedObjectColors.
